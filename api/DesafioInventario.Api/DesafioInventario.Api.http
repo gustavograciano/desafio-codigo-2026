@@ -1,0 +1,6 @@
+@DesafioInventario.Api_HostAddress = http://localhost:5228
+
+GET {{DesafioInventario.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,58 @@
+# =========================
+# .NET
+# =========================
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.suo
+*.swp
+*.log
+.vs/
+.vscode/
+.idea/
+
+# EF Core
+**/Migrations/*.sqlite
+
+# Build outputs
+*.dll
+*.pdb
+*.exe
+
+# =========================
+# Node / Nuxt
+# =========================
+node_modules/
+.nuxt/
+.output/
+.nitro/
+.cache/
+.data/
+dist/
+*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Docker volumes (local only, never commit)
+# =========================
+postgres-data/
